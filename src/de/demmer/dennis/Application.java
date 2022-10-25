@@ -4,13 +4,18 @@ public class Application {
 
 	public static void main(String[] args) {
 
-		System.out.println("Hello World");
+//		System.out.println("Hello World");
+//		
+//		addieren(5, 8);
+//
+//		int ergebnisMulti = multiply(2, 5);
+//
+//		System.out.println(ergebnisMulti+ " (aus der main-methode)");
 		
-		addieren(5, 8);
 
-		int ergebnisMulti = multiply(2, 5);
-
-		System.out.println(ergebnisMulti+ " (aus der main-methode)");
+		Rechenhilfe rHilfe = new Rechenhilfe();
+		rHilfe.addieren(7,7);
+		
 	}
 	
 	
@@ -38,7 +43,4 @@ public class Application {
 	}
 	
 	
-	
-	
-
 }
